@@ -1,6 +1,5 @@
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { component$ } from "@builder.io/qwik";
-import { Navigation } from "./navigation.tsx";
 
 export default component$(() => {
   return (
@@ -11,7 +10,6 @@ export default component$(() => {
         <br />
         Happy coding.
       </div>
-      <Navigation />
     </>
   );
 });
