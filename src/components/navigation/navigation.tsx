@@ -25,11 +25,11 @@ const navItems = [
 
 export const Navigation = component$(() => {
   return (
-    <div class="fixed inset-x-0 bottom-0 flex justify-center">
+    <div class="fixed inset-x-0 bottom-0 flex justify-center bg-white py-3">
       {navItems.map(({ src, href, alt, text }) => (
         <a
           key={href}
-          class="relative flex w-24 flex-col items-center px-4 py-1 transition-colors duration-200 visited:bg-blue-400 hover:bg-blue-500 hover:text-white focus:bg-blue-600 active:bg-blue-700"
+          class="relative flex w-24 flex-col items-center px-6 py-3 font-bold text-light-paragraph transition-colors duration-200 visited:bg-blue-400 hover:bg-blue-500 hover:text-white focus:bg-blue-600 active:bg-blue-700"
           href={href}
         >
           <img class="h-[24px] w-[24px]" alt={alt} src={src} />

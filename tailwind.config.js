@@ -11,10 +11,10 @@ export default {
           darkest: "#1C3B4A",
         },
         primary: {
-          light: "#6666FF",
-          base: "#5252E0",
-          dark: "#4040BF",
-          darkest: "#1C1C4A",
+          light: "#66B2FF",
+          base: "#5299E0",
+          dark: "#062B4F",
+          darkest: "#1C334A",
         },
         dark: {
           title: "#F1F5F9",

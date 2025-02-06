@@ -21,7 +21,7 @@ export default component$(() => {
       <Header />
       <Slot />
       <Navigation />
-      <Footer/>
+      <Footer />
     </>
   );
 });

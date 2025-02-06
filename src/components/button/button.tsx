@@ -9,7 +9,7 @@ export const Button = component$<ButtonProps>(({ text, link }) => {
   return (
     <a
       href={link}
-      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
+      class="flex w-max items-center rounded bg-accent-light px-6 py-3 font-bold text-white transition duration-300 hover:bg-accent-dark"
     >
       {text}
     </a>
