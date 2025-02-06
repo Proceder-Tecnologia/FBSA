@@ -26,7 +26,7 @@ export const Card = component$(
             class="relative mt-4 rounded-full border-2 border-solid border-white px-4 py-2 font-bold text-dark-title transition hover:bg-gray-900"
             onClick$={() => (isModalOpen.value = true)}
           >
-            Atuação Específica
+            Atuações Específicas
           </button>
         </div>
 

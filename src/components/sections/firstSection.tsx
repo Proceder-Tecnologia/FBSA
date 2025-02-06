@@ -20,8 +20,11 @@ export const FirstSection = component$<SectionProps>(
   }) => {
     return (
       <section class="bg-primary-dark">
-        <div class="flex flex-col gap-16 px-6 py-20">
-          <h2 class="bg-gradient-to-r from-primary-base to-white bg-clip-text text-transparent">
+        <div class="m-auto flex flex-col gap-16 px-6 py-20 lg:max-w-screen-xl">
+          <h2
+            id="offices"
+            class="bg-gradient-to-r from-primary-base to-white bg-clip-text text-transparent"
+          >
             {title}
           </h2>
           <div class="flex flex-col gap-16">

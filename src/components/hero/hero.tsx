@@ -33,7 +33,10 @@ export const Hero = component$<HeroProps>(
                     {subtitleHighlight}
                   </span>
                 </p>
-                <h1 class="bg-gradient-to-r from-primary-base to-white bg-clip-text text-center text-transparent">
+                <h1
+                  id="home"
+                  class="bg-gradient-to-r from-primary-base to-white bg-clip-text text-center text-transparent"
+                >
                   {title}
                 </h1>
               </div>
