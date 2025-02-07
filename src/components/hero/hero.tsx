@@ -23,7 +23,7 @@ export const Hero = component$<HeroProps>(
   }) => {
     return (
       <section class="bg-primary-dark">
-        <div class="flex flex-col gap-8 px-6 py-16">
+        <div class="m-auto flex flex-col gap-8 px-6 py-16 lg:max-w-screen-lg">
           <div class="flex flex-col items-center gap-12">
             <div class="flex flex-col items-center gap-6">
               <div class="flex flex-col items-center gap-6">

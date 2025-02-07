@@ -26,7 +26,6 @@ export default component$(() => {
           secondDescription="Assessoria, consultoria, correspondência e contencioso fazem parte de  nosso portfólio de atuação. Nosso escritório de advocacia é integrado e  especializado, conta com profissionais aptos para a resolução das  necessidades de seus clientes, com agilidade na prestação de serviços  jurídicos de acordo com as melhores práticas do mercado."
           imageSrc="/FirstSection/FirstSection.jpg"
         />
-
         <CardList />
       </main>
     </>

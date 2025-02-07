@@ -25,7 +25,7 @@ const navItems = [
 
 export const Navigation = component$(() => {
   return (
-    <div class="fixed inset-x-0 bottom-0 flex justify-center bg-white py-3">
+    <div class="fixed inset-x-0 bottom-0 flex justify-center bg-white py-3 lg:hidden">
       {navItems.map(({ src, href, alt, text }) => (
         <a
           key={href}

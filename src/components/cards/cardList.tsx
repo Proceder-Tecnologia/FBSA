@@ -148,7 +148,7 @@ export const CardList = component$(() => {
   ];
 
   return (
-    <div class="m-auto flex flex-col gap-12 px-6 py-20 lg:max-w-screen-xl">
+    <div class="m-auto flex flex-col gap-12 px-6 py-20 lg:max-w-screen-lg">
       <h2
         id="areas"
         class="bg-gradient-to-r from-primary-base to-black bg-clip-text text-center text-transparent"
