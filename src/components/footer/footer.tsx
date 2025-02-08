@@ -27,18 +27,18 @@ export const Footer = component$(() => {
             </div>
           </div>
           <div class="flex snap-center items-center justify-center gap-4">
-            <a class="font-bold" href="mailto:atendimento@fsba.com.br">
+            <a class="font-semibold" href="mailto:atendimento@fsba.com.br">
               atendimento@fsba.com.br
             </a>
           </div>
           <div class="flex snap-center items-center justify-center gap-4">
-            <p class="text-center font-bold text-dark-paragraph">
+            <p class="text-center font-semibold text-dark-paragraph">
               Avenida Paulista,1765, Ed. Scarpa, 15º Andar, CJ 152, São Paulo,
               SP, CEP 01311-200
             </p>
           </div>
           <div class="flex snap-center items-center justify-center gap-4">
-            <p class="text-center font-bold text-dark-paragraph">
+            <p class="text-center font-semibold text-dark-paragraph">
               (11) 32881229 - 32871490
             </p>
           </div>
@@ -52,7 +52,7 @@ export const Footer = component$(() => {
               <p class="rounded-full border-2 border-solid border-white px-8 py-2 font-bold uppercase text-dark-title">
                 E-Mail
               </p>
-              <a class="font-bold" href="mailto:atendimento@fsba.com.br">
+              <a href="mailto:atendimento@fsba.com.br">
                 atendimento@fsba.com.br
               </a>
             </div>
@@ -60,7 +60,7 @@ export const Footer = component$(() => {
               <p class="rounded-full border-2 border-solid border-white px-8 py-2 font-bold uppercase text-dark-title">
                 Endereço
               </p>
-              <p class="text-center font-bold text-dark-paragraph">
+              <p class="text-center text-dark-paragraph">
                 Avenida Paulista,1765, Ed. Scarpa, 15º Andar, CJ 152, São Paulo,
                 SP, CEP 01311-200
               </p>
@@ -69,7 +69,7 @@ export const Footer = component$(() => {
               <p class="rounded-full border-2 border-solid border-white px-8 py-2 font-bold uppercase text-dark-title">
                 Telefone
               </p>
-              <p class="text-center font-bold text-dark-paragraph">
+              <p class="text-center text-dark-paragraph">
                 (11) 32881229 - 32871490
               </p>
             </div>

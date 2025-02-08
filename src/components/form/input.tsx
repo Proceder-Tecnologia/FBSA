@@ -26,7 +26,7 @@ export const Input = component$(
         value={value}
         required={required}
         onInput$={onInput$}
-        class="w-full border-2 bg-transparent px-7 py-2.5 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        class="w-full border-2 bg-transparent px-7 py-2.5 text-dark-paragraph focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
     );
   },
