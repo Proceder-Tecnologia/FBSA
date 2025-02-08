@@ -101,6 +101,7 @@ export const Contact = component$(() => {
         </div>
 
         <button
+          type="button"
           class="w-max bg-primary-base px-8 py-4 text-slate-100 transition-colors hover:bg-primary-dark"
           onClick$={sendWhatsAppMessage}
         >
