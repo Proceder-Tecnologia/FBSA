@@ -10,7 +10,7 @@ export const Header = component$(() => {
       </a>
       <div class="flex gap-6">
         <DesktopNavigation />
-        <Button text="Contato" link="https://example.com" />
+        <Button text="Contato" link="#contato" />
       </div>
     </header>
   );

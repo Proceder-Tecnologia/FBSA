@@ -3,6 +3,7 @@ import { component$ } from "@builder.io/qwik";
 import { Hero } from "../components/hero/hero";
 import { FirstSection } from "../components/sections/firstSection";
 import { CardList } from "../components/cards/cardList";
+import { Contact } from "../components/contact/contact";
 
 export default component$(() => {
   return (
@@ -26,6 +27,7 @@ export default component$(() => {
           imageSrc="/FirstSection/FirstSection.jpg"
         />
         <CardList />
+        <Contact />
       </main>
     </>
   );
