@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Button } from "../button/button";
+import { DesktopNavigation } from "../navigation/navigation";
 
 export const Header = component$(() => {
   return (
@@ -7,7 +8,10 @@ export const Header = component$(() => {
       <a href="/">
         <img alt="" src="/LogoBig.svg" />
       </a>
-      <Button text="Contato" link="https://example.com" />
+      <div class="flex gap-6">
+        <DesktopNavigation />
+        <Button text="Contato" link="https://example.com" />
+      </div>
     </header>
   );
 });

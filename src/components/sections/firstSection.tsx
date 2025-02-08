@@ -37,9 +37,9 @@ export const FirstSection = component$<SectionProps>(
               </div>
               <div class="flex flex-col gap-3">
                 <h3 class="bg-gradient-to-r from-primary-base to-white bg-clip-text text-transparent">
-                  {firstSubtitle}
+                  {secondSubtitle}
                 </h3>
-                <p class="text-dark-paragraph">{firstDescription}</p>
+                <p class="text-dark-paragraph">{secondDescription}</p>
               </div>
             </div>
             <img class="h-96 object-cover lg:h-full" alt="" src={imageSrc} />

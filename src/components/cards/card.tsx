@@ -5,7 +5,7 @@ interface CardProps {
   title: string;
   description: string;
   image: string;
-  details: string;
+  details: string[];
 }
 
 export const Card = component$(

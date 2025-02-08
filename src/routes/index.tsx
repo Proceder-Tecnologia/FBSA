@@ -1,9 +1,8 @@
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { component$ } from "@builder.io/qwik";
 import { Hero } from "../components/hero/hero";
-import { FirstSection } from "../components/sections/firstSection.tsx";
-import { CardList } from "../components/cards/cardList.tsx";
-import { Contact } from "../components/contact/contact.tsx";
+import { FirstSection } from "../components/sections/firstSection";
+import { CardList } from "../components/cards/cardList";
 
 export default component$(() => {
   return (

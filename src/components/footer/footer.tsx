@@ -62,7 +62,7 @@ export const Footer = component$(() => {
               </p>
               <p class="text-center font-bold text-dark-paragraph">
                 Avenida Paulista,1765, Ed. Scarpa, 15º Andar, CJ 152, São Paulo,
-                SP, CEP 01311-200
+                SP, CEP 01311-200
               </p>
             </div>
             <div class="flex flex-col items-center gap-3">
