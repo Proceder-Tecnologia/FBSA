@@ -46,7 +46,6 @@ export const Contact = component$(() => {
             onInput$={(e) =>
               (name.value = (e.target as HTMLInputElement).value)
             }
-            class="w-full"
           />
         </div>
 
@@ -85,7 +84,6 @@ export const Contact = component$(() => {
             ]}
             value={services.value}
             onChange$={(val) => (services.value = val)}
-            class="w-full"
           />
         </div>
         <div class="flex w-full flex-col gap-3">
@@ -99,7 +97,6 @@ export const Contact = component$(() => {
             onInput$={(e) =>
               (message.value = (e.target as HTMLInputElement).value)
             }
-            class="w-full"
           />
         </div>
 
