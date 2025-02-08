@@ -41,4 +41,11 @@ export const head: DocumentHead = {
       content: "Página incial da Fontes Bernardes Sociedade de Advogados.",
     },
   ],
+  links: [
+    {
+      rel: "icon",
+      href: "/favicon.svg",
+      type: "image/svg+xml",
+    },
+  ],
 };
