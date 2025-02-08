@@ -7,6 +7,7 @@
  * - https://qwik.dev/docs/deployments/netlify-edge/
  *
  */
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 import {
   createQwikCity,
   type PlatformNetlify,
