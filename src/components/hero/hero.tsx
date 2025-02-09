@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { Button } from "../button/button";
 
 interface HeroProps {
   subtitle: string;
