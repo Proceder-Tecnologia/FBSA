@@ -51,7 +51,7 @@ export const Navigation = component$(() => {
 
 export const DesktopNavigation = component$(() => {
   return (
-    <div class="hidden lg:flex">
+    <div class="hidden lg:m-auto lg:flex lg:max-w-screen-lg">
       {navItems.map(({ href, text }) => (
         <a
           key={href}
