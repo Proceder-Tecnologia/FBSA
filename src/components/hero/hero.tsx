@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { Button } from "../button/button";
 
 interface HeroProps {
   subtitle: string;
@@ -12,15 +11,7 @@ interface HeroProps {
 }
 
 export const Hero = component$<HeroProps>(
-  ({
-    subtitle,
-    subtitleHighlight,
-    title,
-    description,
-    buttonText,
-    buttonLink,
-    imageSrc,
-  }) => {
+  ({ subtitle, subtitleHighlight, title, description, imageSrc }) => {
     return (
       <section class="bg-primary-dark">
         <div class="m-auto flex flex-col gap-8 px-6 py-16 lg:max-w-screen-lg">
@@ -42,7 +33,6 @@ export const Hero = component$<HeroProps>(
               </div>
               <p class="text-center text-dark-paragraph">{description}</p>
             </div>
-            <Button text={buttonText} link={buttonLink} />
           </div>
           <img alt="" src={imageSrc} />
         </div>
