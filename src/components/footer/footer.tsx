@@ -96,19 +96,27 @@ export const Footer = component$(() => {
             </div>
           </div>
         </div>
-        <div class="flex">
+        <div class="grid grid-cols-4 grid-rows-1">
           <img
-            class="w-full object-cover"
+            class="h-full w-full object-cover"
             alt=""
             src="/Footer/DaumierLawyers.jpg"
           />
-          <img class="w-full object-cover" alt="" src="/Footer/LesAvocat.jpg" />
           <img
-            class="object-fit w-full"
+            class="h-full w-full object-cover"
+            alt=""
+            src="/Footer/LesAvocat.jpg"
+          />
+          <img
+            class="object-fit h-full w-full"
             alt=""
             src="/Footer/BeauxDeLavie.jpg"
           />
-          <img class="w-full object-cover" alt="" src="/Footer/Daumier.jpg" />
+          <img
+            class="h-full w-full object-cover"
+            alt=""
+            src="/Footer/Daumier.jpg"
+          />
         </div>
       </footer>
     </>
