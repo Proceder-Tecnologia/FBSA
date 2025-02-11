@@ -10,7 +10,7 @@ export default component$(() => {
       <main class="pt-[72px]">
         <Hero
           subtitle="Possibilitando Segurança Jurídica Para"
-          subtitleHighlight="Você"
+          subtitleHighlight="Sua Empresa"
           title="Fontes Bernardes Sociedade de Advogados"
           description="Assessoria, consultoria, correspondência e contencioso fazem parte de nosso portfólio de atuação. Nosso escritório de advocacia é integrado e especializado, conta com profissionais aptos para a resolução das necessidades de seus clientes, com agilidade na prestação de serviços jurídicos de acordo com as melhores práticas do mercado."
           buttonText="Entre Em Contato"
