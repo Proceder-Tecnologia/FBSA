@@ -7,22 +7,15 @@ export const Footer = component$(() => {
         <div class="m-auto grid snap-x snap-mandatory auto-cols-[100%] grid-flow-col items-center justify-between gap-4 overflow-x-auto overflow-y-hidden px-6 py-8 lg:flex lg:max-w-screen-xl lg:flex-row lg:overflow-auto lg:pb-0">
           <div class="flex snap-center items-center justify-center gap-4">
             <a aria-label="Link to home page." href="./">
-              <img alt="" src="/LogoBig.svg" />
+              <img alt="Logo da FBSA." src="/LogoBig.svg" />
             </a>
             <div class="flex gap-2">
               <a
                 class="rounded bg-accent-base hover:bg-accent-dark"
-                aria-label="A link to facebook."
-                href="facebook.com"
+                aria-label="Um link para o facebook."
+                href="https://pt-br.facebook.com/fontesbernardesadvogados/"
               >
                 <img alt="" src="/Footer/Facebook.svg" />
-              </a>
-              <a
-                class="rounded bg-accent-base hover:bg-accent-dark"
-                aria-label="A link to Twitter."
-                href="x.com"
-              >
-                <img alt="" src="/Footer/Twitter.svg" />
               </a>
             </div>
           </div>
@@ -76,22 +69,15 @@ export const Footer = component$(() => {
           </div>
           <div class="flex items-center justify-center gap-6">
             <a aria-label="Link to home page." href="./">
-              <img alt="" src="/LogoBig.svg" />
+              <img alt="Uma logo da FBSA" src="/LogoBig.svg" />
             </a>
             <div class="flex gap-2">
               <a
                 class="rounded bg-accent-base hover:bg-accent-dark"
                 aria-label="A link to facebook."
-                href="facebook.com"
+                href="https://pt-br.facebook.com/fontesbernardesadvogados/"
               >
                 <img alt="" src="/Footer/Facebook.svg" />
-              </a>
-              <a
-                class="rounded bg-accent-base hover:bg-accent-dark"
-                aria-label="A link to Twitter."
-                href="x.com"
-              >
-                <img alt="" src="/Footer/Twitter.svg" />
               </a>
             </div>
           </div>
