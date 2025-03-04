@@ -36,14 +36,47 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Página incial da Fontes Bernardes Sociedade de Advogados.",
+      content: "Página inicial da Fontes Bernardes Sociedade de Advogados.",
     },
-  ],
-  links: [
     {
-      rel: "icon",
-      href: "/favicon.svg",
-      type: "image/svg+xml",
+      property: "og:type",
+      content: "website",
+    },
+    {
+      property: "og:url",
+      content: "https://fbsa.com.br/",
+    },
+    {
+      property: "og:title",
+      content: "FBSA Law",
+    },
+    {
+      property: "og:description",
+      content: "Página inicial da Fontes Bernardes Sociedade de Advogados.",
+    },
+    {
+      property: "og:image",
+      content: "https://fbsa.com.br/Preview.png",
+    },
+    {
+      property: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      property: "twitter:url",
+      content: "https://fbsa.com.br/",
+    },
+    {
+      property: "twitter:title",
+      content: "FBSA Law",
+    },
+    {
+      property: "twitter:description",
+      content: "Página inicial da Fontes Bernardes Sociedade de Advogados.",
+    },
+    {
+      property: "twitter:image",
+      content: "https://fbsa.com.br/Preview.png",
     },
   ],
 };
